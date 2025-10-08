@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { Domain } from './domain';
+import { Ui } from './ui';
 
-describe('Domain', () => {
-  let component: Domain;
-  let fixture: ComponentFixture<Domain>;
+describe('Ui', () => {
+  let component: Ui;
+  let fixture: ComponentFixture<Ui>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Domain],
+      imports: [Ui],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(Domain);
+    fixture = TestBed.createComponent(Ui);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

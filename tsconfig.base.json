@@ -9,7 +9,10 @@
     "skipLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@my-store/domain": ["shared/src/index.ts"]
+      "@my-store/data-access": ["shared/data/src/index.ts"],
+      "@my-store/domain": ["shared/src/index.ts"],
+      "@my-store/ui": ["shared/ui/src/index.ts"],
+      "@my-store/utils": ["shared/utils/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
